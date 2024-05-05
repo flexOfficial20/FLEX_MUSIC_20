@@ -9,7 +9,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID","12380656"))
 API_HASH = getenv("API_HASH","d927c13beaaf5110f25c505b7c071273")
 BOT_TOKEN = getenv("BOT_TOKEN","6410978802:AAGEDw-M8nPthEY0ckBpoecN6hlHqZccQ50")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://FLEXOFFICIAL:FLEXOFFICIAL 12345@cluster0.mrx9drw.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://FLEXOFFICIAL:FLEXOFFICIAL12345@cluster0.mrx9drw.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002078575375"))
 BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002078575375")) # LOGGER_ID Id Also Use No Problem
